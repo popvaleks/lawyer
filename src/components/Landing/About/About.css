@@ -1,0 +1,120 @@
+.about__wrapper {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.about__wrapper:before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  top: 62px;
+  left: -20%;
+  background: url(../../../Image/grid-bcg/Группdddddа\ 1.png) 0 0 repeat;
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  -o-transform: rotate(1deg);
+  transform: rotate(1deg);
+  z-index: 0;
+}
+
+.about__title {
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 59px;
+  color: #fff;
+  margin-bottom: 49px;
+  padding-left: 159px;
+  z-index: 1;
+  margin-top: 95px;
+}
+
+.about__text {
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+  margin-bottom: 48px;
+  padding-left: 159px;
+  padding-right: 170px;
+  z-index: 1;
+}
+
+.about__sign {
+  width: 223px;
+  height: 57px;
+  background: url(../../../Image/signaturdde.svg);
+  margin-bottom: 177px;
+  margin-left: 159px;
+}
+
+.about__card-list {
+  display: grid;
+  grid-template-columns: 465px 465px 465px;
+  gap: 0 102px;
+    margin: 0 auto 285px;
+}
+
+.about__card-item {
+  margin: auto;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 39px;
+  background-color: rgba(255, 255, 255, .53);
+  /* background-size: 465px 570px; */
+  border-radius: 35px;
+  z-index: 2;
+}
+
+.about__card-icon {
+  height: 97px;
+  width: 100%;
+  background: url(../../../Image/grid-ico/Tilda_Icons_28_law_fine.svg) center no-repeat;
+  background-size: contain;
+  z-index: 3;
+  margin: 62px auto 60px;
+}
+
+.about__card-title {
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #1F1F1F;
+  text-align: center;
+  padding-bottom: 47px;
+}
+
+.about__card-text {
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #1F1F1F;
+  text-align: center;
+}
+
+.about__card-icon_icon2 {
+  margin-left: 6px;
+  background: url(../../../Image/grid-ico/Tilda_Icons_28_law_contract.svg) center no-repeat;
+}
+
+.about__card-icon_icon3 {
+  background: url(../../../Image/grid-ico/Tilda_Icons_28_law_protection.svg) center no-repeat;
+}
+
+.about__card-item_bcg2 {
+  background-color: rgba(54, 54, 54, .52);
+}

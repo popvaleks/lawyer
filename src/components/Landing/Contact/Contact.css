@@ -1,0 +1,48 @@
+.contact__wrapper {
+  padding: 0 140px;
+  display: flex;
+  margin-bottom: 98px;
+}
+
+.contact__left-container {
+  display: flex;
+  flex-direction: column;
+  width: calc(100%/2);
+}
+
+.contact__titile {
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-style: regular;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 59px;
+  color: #fff;
+  margin-bottom: 86px;
+}
+
+.contact__text {
+  width: 555px;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-style: regular;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 37px;
+  color: #fff;
+}
+
+.contact__right-container {
+  width: 864px;
+  height: 866px;
+}
+
+.cotact__map {
+  height: 864px;
+  width: auto;
+  overflow: hidden;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
+}

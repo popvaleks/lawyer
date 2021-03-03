@@ -1,0 +1,132 @@
+.list__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 140px;
+}
+
+.list__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 55px 0;
+}
+
+.list__header-content {
+  display: flex;
+  justify-content: space-between;
+  min-width: 414px;
+  height: 83px;
+}
+
+.list__header-ico {
+  height: 82px;
+  width: auto;
+  margin-right: 23px;
+}
+
+.list__header-content-block {
+  display: flex;
+  flex-direction: column;
+  max-width: 330px;
+}
+
+.list__header-title {
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #fff;
+  text-align: left;
+}
+
+.list__header-text {
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #fff;
+  text-align: left;
+}
+
+/* Help */
+
+.list__help-container {
+  margin: 120px auto 0;
+  display: flex;
+}
+
+.list__help-left {
+  margin: 40px auto 240px 0px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1010px;
+}
+
+.list__help-title {
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 59px;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 59px;
+}
+
+.list__help-text {
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.list__help-btn {
+  background: none;
+  width: 206px;
+  height: 54px;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 11px;
+  margin-bottom: 162px;
+}
+
+.list__help-text_social {
+  margin-bottom: 14px;
+}
+
+.list__help-list {
+  height: 75px;
+  display: flex;
+}
+
+.list__help-social {
+  height: 75px;
+  width: auto;
+  margin-right: 27px;
+}
+
+.list__help-right {
+  width: 529px;
+  height: 919px;
+}
+
+.list__help-right {
+  margin-left: 84px;
+  margin-top: -78
+  px; 
+  width: 529px;
+  height: 919px;
+  background: url(.././../../Image/social/Груddппа\ 1.png) top no-repeat;
+  background-size: 120%;
+}

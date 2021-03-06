@@ -2,6 +2,7 @@ import React from 'react'
 
 import './Header.css'
 import headerLogo from './/header-logo.svg'
+import handleClick from '../../utils/scrollHandler'
 
 function Header() {
   const hoverHandler = () => {
@@ -16,7 +17,7 @@ function Header() {
   return (
     <div onMouseEnter={hoverHandler}
       onMouseLeave={hoverHandlerOff} className="header__wrapper">
-      <div className="header__logo">
+      <div className="link header__logo" onClick={() => handleClick('main')}>
         <img src={headerLogo} alt="Юридическая помощь"
           className="header__logo-img" />
         <div className="header__logo-text">
@@ -31,16 +32,20 @@ function Header() {
       <nav className="header__nav">
         <ul className="header__list">
           <li className="header__li">
-            <a href="#main" className="link header__link">ГЛАВНАЯ</a>
+            <a onClick={() => handleClick('main')}
+              className="link header__link">ГЛАВНАЯ</a>
           </li>
           <li className="header__li">
-            <a href="#about" className="link header__link">О НАС</a>
+            <a onClick={() => handleClick('about')}
+              className="link header__link">О НАС</a>
           </li>
           <li className="header__li">
-            <a href="#services" className="link header__link">УСЛУГИ</a>
+            <a onClick={() => handleClick('services')}
+              className="link header__link">УСЛУГИ</a>
           </li>
           <li className="header__li">
-            <a href="contact" className="link header__link">КОНТАКТЫ</a>
+            <a onClick={() => handleClick('contact')}
+              className="link header__link">КОНТАКТЫ</a>
           </li>
           <li className="header__li">
             <a className="link header__link">LANGUAGE</a>

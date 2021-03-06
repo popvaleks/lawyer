@@ -10,7 +10,7 @@ import display from '../../../Image/services/DISPLAY.png'
 
 function Services() {
   return (
-    <div id="services" className="services__wrapper">
+    <div className="services__wrapper">
       <div className="sevices__top">
         <div className="services__left-container">
           <p className="services__text">
@@ -43,7 +43,7 @@ function Services() {
           </p>
         </div>
       </div>
-      <h2 className="services__title">
+      <h2 id="services" className="services__title">
         Наши услуги
       </h2>
       <div className="services__list">
@@ -82,7 +82,7 @@ function Services() {
         СВОБОДНЫЙ ЮРИСТ
       </h2>
       <div className="sevices__top sevices__top_btm">
-        <div className="services__left-container services__left-container_btm">
+        <div className="services__left-container_btm">
           <p className="services__text">
             Ключевыми сферами деятельности Юридической фирмы являются
             правовая помощь при возникновении проблем с погашением
@@ -102,7 +102,7 @@ function Services() {
             инстанций.
           </p>
           <div className="services__bnt-cintainer">
-            <button className="services__btn">
+            <button className="services__btn services__btn_btm">
               Начать Сейчас
             </button>
             <button className="services__btn services__btn_link">
@@ -110,8 +110,7 @@ function Services() {
             </button>
           </div>
         </div>
-        <div className="services__right-container
-        services__right-container_btm">
+        <div className="services__right-container_btm">
           <p className="services__text services__text_right
           services__text_right_btm">
             Кроме этого, юристы и адвокаты фирмы специализируется на

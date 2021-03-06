@@ -60,7 +60,7 @@
   display: grid;
   grid-template-columns: 465px 465px 465px;
   gap: 0 102px;
-    margin: 0 auto 285px;
+  margin: 0 auto 285px;
 }
 
 .about__card-item {
@@ -70,10 +70,27 @@
   flex-direction: column;
   align-items: center;
   padding: 0 39px;
-  background-color: rgba(255, 255, 255, .53);
-  /* background-size: 465px 570px; */
+  background: rgba(255, 255, 255, .53);
   border-radius: 35px;
   z-index: 2;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease-in;
+}
+
+.about__card-item:hover {
+  background: url(../../../Image/grid-bcg/Контур\ 12.svg) center no-repeat;
+  background-size: 465px 570px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.35);
+  /* transition: all 0.5s ease-in; */
+  transition: box-shadow 0.2s ease-in;
+}
+
+.about__card-item_bcg2:hover {
+  background: url(../../../Image/grid-bcg/Контур\ 13.svg) center no-repeat;
+  background-size: 465px 570px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.35);
+  /* transition: all 0.5s ease-in; */
+  transition: box-shadow 0.2s ease-in;
 }
 
 .about__card-icon {

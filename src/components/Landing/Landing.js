@@ -7,7 +7,6 @@ import About from './About/About'
 import List from './List/List'
 import Services from './Services/Services'
 import Contact from './Contact/Contact'
-import Form from './Form/Form'
 
 function Landing() {
   return (
@@ -17,7 +16,6 @@ function Landing() {
       <List></List>
       <Services></Services>
       <Contact></Contact>
-      <Form></Form>
     </div>
   )
 }

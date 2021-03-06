@@ -29,6 +29,13 @@ html {
   border-radius: 50%;
   background-color: #4e4e4e;
   opacity: 70%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.app__arrow:hover {
+  background-color: #343491;
+  transition: all 0.3s ease;
 }
 
 .app__arrow-line {

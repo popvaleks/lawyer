@@ -4,7 +4,7 @@ import './Main.css'
 
 function Main() {
   return (
-    <div className="main__wrapper">
+    <div id="main" className="main__wrapper">
       <div className="main__text">
         <h2 className="main__title">
           Профессиональный&nbsp;правовой сервис онлайн

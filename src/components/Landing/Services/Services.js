@@ -10,7 +10,7 @@ import display from '../../../Image/services/DISPLAY.png'
 
 function Services() {
   return (
-    <div className="services__wrapper">
+    <div id="services" className="services__wrapper">
       <div className="sevices__top">
         <div className="services__left-container">
           <p className="services__text">

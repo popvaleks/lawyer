@@ -1,6 +1,24 @@
 .main__wrapper {
   height: 1080px;
-  background: url('../../../Image/k1.jpg') no-repeat;
+  background: url('../../../Image/main/Фон-1.png') no-repeat;
+  position: relative;
+  filter: grayscale(100%);
+  z-index: 2;
+}
+
+.main__wrapper:hover {
+  filter: grayscale(0%);
+}
+
+.main__wrapper::before, .main__wrapper:hover::before {
+  content: "";
+  z-index: 2;
+  background: url('../../../Image/main/Прямоугольник\ 12.png') center no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  height: 436px;
 }
 
 .main__text {
@@ -31,7 +49,7 @@
 .main__btn {
   background: none;
   width: 206px;
-  height:54px;
+  height: 54px;
   font-family: 'Raleway', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 500;

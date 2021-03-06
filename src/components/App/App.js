@@ -8,6 +8,11 @@ import Footer from '../Footer/Footer'
 function App() {
   return (
     <div className="App">
+      <div className="app__arrow">
+        <a href="#" className="app__arrow-link">
+          <div className="app__arrow-line"></div>
+        </a>
+      </div>
       <Header></Header>
       <Landing></Landing>
       <Footer></Footer>

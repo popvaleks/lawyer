@@ -5,7 +5,7 @@ import map from '../../../Image/contact/Группа масок 1.png'
 
 function Contact() {
   return (
-    <div className="contact__wrapper">
+    <div id="contact" className="contact__wrapper">
       <div className="contact__left-container">
         <h2 className="contact__titile">
           Контакты

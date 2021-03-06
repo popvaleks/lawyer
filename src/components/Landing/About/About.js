@@ -4,7 +4,7 @@ import './About.css'
 
 function About() {
   return (
-    <div className="about__wrapper">
+    <div id="about" className="about__wrapper">
       <h2 className="about__title">
         О нас
       </h2>

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lawyer/static/css/main.69ceb8f7.chunk.css",
+    "main.css": "/lawyer/static/css/main.4724eae5.chunk.css",
     "main.js": "/lawyer/static/js/main.06fcd1ec.chunk.js",
     "main.js.map": "/lawyer/static/js/main.06fcd1ec.chunk.js.map",
     "runtime-main.js": "/lawyer/static/js/runtime-main.aa90b34a.js",
@@ -8,7 +8,7 @@
     "static/js/2.0d64155f.chunk.js": "/lawyer/static/js/2.0d64155f.chunk.js",
     "static/js/2.0d64155f.chunk.js.map": "/lawyer/static/js/2.0d64155f.chunk.js.map",
     "index.html": "/lawyer/index.html",
-    "static/css/main.69ceb8f7.chunk.css.map": "/lawyer/static/css/main.69ceb8f7.chunk.css.map",
+    "static/css/main.4724eae5.chunk.css.map": "/lawyer/static/css/main.4724eae5.chunk.css.map",
     "static/js/2.0d64155f.chunk.js.LICENSE.txt": "/lawyer/static/js/2.0d64155f.chunk.js.LICENSE.txt",
     "static/media/Services.css": "/lawyer/static/media/Слой 1.e888b067.png",
     "static/media/App.css": "/lawyer/static/media/Stem-Regular.92da5244.woff2",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.aa90b34a.js",
     "static/js/2.0d64155f.chunk.js",
-    "static/css/main.69ceb8f7.chunk.css",
+    "static/css/main.4724eae5.chunk.css",
     "static/js/main.06fcd1ec.chunk.js"
   ]
 }

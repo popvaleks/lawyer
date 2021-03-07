@@ -9,7 +9,7 @@ import tg from '../../../Image/social/tg22.png'
 import zoom from '../../../Image/social/zoom.png'
 import vk from '../../../Image/social/vkontakte_logo.png'
 
-function List() {
+function List({ hadleOpenForm }) {
   return (
     <div className="list__wrapper">
       <div className="list__header">
@@ -62,7 +62,7 @@ function List() {
             ближайшее<br></br>время.<br></br>
             Современные проблемы требуют современный решений.
           </p>
-          <button className="list__help-btn">
+          <button onClick={hadleOpenForm} className="list__help-btn">
             Начать Сейчас
           </button>
           <p className="list__help-text list__help-text_social">

@@ -13,7 +13,7 @@
   height: 100%;
   top: 62px;
   left: -20%;
-  background: url(../../../Image/grid-bcg/Группdddddа\ 1.png) 0 0 repeat;
+  background: url(../../../Image/Группdddddа\ 1.png) 0 0 repeat;
   -webkit-transform: rotate(1deg);
   -moz-transform: rotate(1deg);
   -ms-transform: rotate(1deg);
@@ -78,7 +78,7 @@
 }
 
 .about__card-item:hover {
-  background: url(../../../Image/grid-bcg/Контур\ 12.svg) center no-repeat;
+  background: url(../../../Image/Контур\ 12.svg) center no-repeat;
   background-size: 465px 570px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.35);
   /* transition: all 0.5s ease-in; */
@@ -86,7 +86,7 @@
 }
 
 .about__card-item_bcg2:hover {
-  background: url(../../../Image/grid-bcg/Контур\ 13.svg) center no-repeat;
+  background: url(../../../Image/Контур\ 13.svg) center no-repeat;
   background-size: 465px 570px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.35);
   /* transition: all 0.5s ease-in; */

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import './App.css'
 import Header from '../Header/Header'
@@ -8,10 +8,22 @@ import handleClick from '../../utils/scrollHandler'
 import Form from './Form/Form'
 
 function App() {
-  const [scroll, setScroll] = React.useState(0)
+  const [scroll, setScroll] = useState(0)
+  const [formTrue, setFormTrue] = useState(false)
+  const body = document.getElementById('body')
 
   const handleScroll = () => {
     setScroll(window.scrollY)
+  }
+
+  const hadleOpenForm = () => {
+    setFormTrue(true)
+    body.style.overflow = 'hidden'
+  }
+
+  const hadleCloseForm = () => {
+    setFormTrue(false)
+    body.style.overflow = ''
   }
 
   React.useEffect(() => {
@@ -28,10 +40,14 @@ function App() {
             <div className="app__arrow-line"></div>
           </a>
         </div>}
-      <Header></Header>
-      <Landing></Landing>
-      <Footer></Footer>
-      <Form></Form>
+      <Header />
+      <Landing
+        hadleOpenForm={hadleOpenForm} />
+      <Footer />
+      {formTrue &&
+        <Form
+          hadleCloseForm={hadleCloseForm}
+        />}
     </div>
   )
 }

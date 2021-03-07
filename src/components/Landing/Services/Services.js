@@ -8,7 +8,7 @@ import chat from '../../../Image/services/CHAT.png'
 import mail from '../../../Image/services/MAIL.png'
 import display from '../../../Image/services/DISPLAY.png'
 
-function Services() {
+function Services({ hadleOpenForm }) {
   return (
     <div className="services__wrapper">
       <div className="sevices__top">
@@ -23,10 +23,12 @@ function Services() {
           связанных с отраслями права
           </p>
           <div className="services__bnt-cintainer">
-            <button className="services__btn">
+            <button type="button" onClick={hadleOpenForm}
+              className="services__btn">
               Начать Сейчас
             </button>
-            <button className="services__btn services__btn_link">
+            <button onClick={hadleOpenForm}
+              className="services__btn services__btn_link">
               Подробнее
             </button>
           </div>
@@ -102,10 +104,12 @@ function Services() {
             инстанций.
           </p>
           <div className="services__bnt-cintainer">
-            <button className="services__btn services__btn_btm">
+            <button onClick={hadleOpenForm}
+              className="services__btn services__btn_btm">
               Начать Сейчас
             </button>
-            <button className="services__btn services__btn_link">
+            <button onClick={hadleOpenForm}
+              className="services__btn services__btn_link">
               Подробнее
             </button>
           </div>

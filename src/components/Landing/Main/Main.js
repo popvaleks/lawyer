@@ -2,7 +2,7 @@ import React from 'react'
 
 import './Main.css'
 
-function Main() {
+function Main({ hadleOpenForm }) {
   return (
     <div id="main" className="main__wrapper">
       <div className="main__text">
@@ -14,7 +14,7 @@ function Main() {
           в области семейного, административного, жилищного,
           гражданского и&nbsp;уголовного права
         </p>
-        <button className="main__btn">
+        <button onClick={hadleOpenForm} className="main__btn">
           Начать сейчас
         </button>
       </div>

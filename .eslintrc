@@ -14,7 +14,8 @@
     "object-curly-spacing": "off",
     "operator-linebreak": "off",
     "indent": ["error", 2],
-    "semi": ["error", "never"]
+    "semi": ["error", "never"],
+    "react/prop-types": "off"
   },
   "extends": ["eslint:recommended","plugin:react/recommended", "google"]  
 }

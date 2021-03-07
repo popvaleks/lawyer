@@ -8,15 +8,22 @@ import List from './List/List'
 import Services from './Services/Services'
 import Contact from './Contact/Contact'
 
-function Landing() {
+// eslint-disable-next-line react/prop-types
+function Landing({ hadleOpenForm }) {
   return (
     <div className="landing__wrapper">
-      <Main></Main>
-      <About></About>
-      <List></List>
-      <Services></Services>
-      <Contact></Contact>
-    </div>
+      <Main
+        hadleOpenForm={hadleOpenForm}
+      />
+      <About />
+      <List
+        hadleOpenForm={hadleOpenForm}
+      />
+      <Services
+        hadleOpenForm={hadleOpenForm}
+      />
+      <Contact />
+    </div >
   )
 }
 

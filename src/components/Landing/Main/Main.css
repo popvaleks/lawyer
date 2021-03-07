@@ -1,6 +1,6 @@
 .main__wrapper {
   height: 1080px;
-  background: url('../../../Image/main/Фон-1.png') no-repeat;
+  background: url('../../../Image/Фон-1.png') no-repeat;
   position: relative;
   filter: grayscale(100%);
   z-index: 2;
@@ -15,7 +15,7 @@
 .main__wrapper::before, .main__wrapper:hover::before {
   content: "";
   z-index: 2;
-  background: url('../../../Image/main/Прямоугольник\ 12.png') center no-repeat;
+  background: url('../../../Image/Прямоугольник\ 12.png') center no-repeat;
   background-size: cover;
   position: absolute;
   top: 60%;

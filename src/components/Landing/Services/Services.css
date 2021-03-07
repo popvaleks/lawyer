@@ -15,7 +15,6 @@
   display: flex;
   flex-direction: column;
   padding: 33px 37.5px;
-  /* background: url(../../../Image/services/Слой\ 1.png) center right no-repeat; */
   margin-right: 55px;
   position: relative;
   border: 3px solid #fff;
@@ -26,7 +25,8 @@
 }
 
 .services__left-container:hover {
-  background: url(../../../Image/grid-bcg/Прямоугольник\ 14.svg) center no-repeat;
+  background: url(../../../Image/Прямоугольник\ 14.png) center no-repeat;
+  background-size: 100% 100%;
   transition: all 0.2s ease-in;
 }
 
@@ -37,13 +37,13 @@
   height: 506.5px;
   top: 0px;
   right: -0.5px;
-  background: url(../../../Image/services/Слой\ 1.png) center right no-repeat;
+  background: url(../../../Image/Слой\ 1.png) center right no-repeat;
   z-index: 3;
   transition: all 0.2s ease-in;
 }
 
 .services__left-container:hover::after {
-  background: url(../../../Image/grid-bcg//svg-editor-image.svg) center right no-repeat;
+  background: url(../../../Image/svg-editor-image.svg) center right no-repeat;
   box-shadow: -10px 15 40px rgba(0, 0, 0, 0.16);
   transition: all 0.2s ease-in;
 }
@@ -58,6 +58,7 @@
   text-align: left;
   max-width: 666px;
   margin-bottom: 12.5px;
+  z-index: 9;
 }
 
 .services__bnt-cintainer {
@@ -76,6 +77,8 @@
   text-align: center;
   background-color: #fff;
   border-radius: 12px;
+  cursor: pointer;
+  z-index: 200;
 }
 
 .services__btn_link {
@@ -83,20 +86,22 @@
   text-align: center;
   background: none;
   border: none;
+  cursor: pointer;
 }
 
 .services__right-container {
   max-width: 646px;
   display: flex;
   flex-direction: column;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   border-radius: 36px;
   padding: 33px 37.5px;
   transition: all 0.2s ease-in;
 }
 
 .services__right-container:hover {
-  background: url(../../../Image/grid-bcg/Прямоугольник\ 15.png) center no-repeat;
+  background: url(../../../Image/Gold-mini.png) center no-repeat;
+  background-size: 105% 105%;
   transition: all 0.2s ease-in;
 }
 
@@ -152,7 +157,7 @@
 .services__super-title {
   font-family: 'Raleway', 'Arial', sans-serif;
   font-style: black;
-  font-weight: 500;
+  font-weight: 900;
   font-size: 228px;
   line-height: 267px;
   color: #1f1f1f;
@@ -163,7 +168,7 @@
 
 .sevices__top_btm {
   margin-left: 0;
-  justify-content: flex-start;
+  justify-content: flex-end;
 }
 
 .services__left-container_btm {
@@ -173,7 +178,6 @@
   display: flex;
   flex-direction: column;
   padding: 33px;
-  /* background: url(../../../Image/services/Слой\ 1.png) center right no-repeat; */
   margin-right: 55px;
   position: relative;
   border: 3px solid #fff;
@@ -184,7 +188,8 @@
 }
 
 .services__left-container_btm:hover {
-  background: url(../../../Image/grid-bcg/Gold.png) center no-repeat;
+  background: url(../../../Image/Gold.png) center no-repeat;
+  background-size: cover;
   transition: all 0.2s ease-in;
 }
 
@@ -195,13 +200,14 @@
   height: 100%;
   bottom: 55px;
   right: 0px;
-  background: url(../../../Image/services/Слой\ 1.png) bottom right no-repeat;
+  background: url(../../../Image/Слой\ 1.png) bottom right no-repeat;
   z-index: 4;
   transition: all 0.2s ease-in;
 }
 
 .services__left-container_btm:hover::after {
-  background-image: url(../../../Image/grid-bcg/g3.svg);
+  background-image: url(../../../Image/g3.svg);
+  background-size: 252px 388px;
   box-shadow: -10px 15 40px rgba(0, 0, 0, 0.16);
   transition: all 0.2s ease-in;
 }
@@ -209,8 +215,7 @@
 .services__right-container_btm {
   max-width: 849px;
   height: 756px;
-  margin-top: 82px;
-  margin-right: 0;
+  margin: auto 0 0 auto;
   border: 3px solid #fff;
   border-radius: 36px;
   padding: 34px 32px;
@@ -223,9 +228,9 @@
 }
 
 .services__right-container_btm:hover {
-  background: url(../../../Image/grid-bcg/Blue.png);
-  transition: all 0.2s ease-in;;
-
+  background: url(../../../Image/Прямоугольник\ 15.png) center no-repeat;
+  background-size: 105%;
+  transition: all 0.2s ease-in;
 }
 
 .services__text_btm {
@@ -242,6 +247,7 @@
 .services__btn_btm {
   margin-bottom: 22px;
   border: none;
+  cursor: pointer;
 }
 
 .services__left-container_btm:hover .services__text, .services__left-container_btm:hover .services__btn_link {
